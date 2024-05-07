@@ -1,0 +1,74 @@
+############## Open Terminal  ################
+
+1           sudo apt install curl
+
+
+
+
+
+############### Installation ##################
+
+LINK        https://cloud.google.com/sdk/docs/install#linux
+
+1           curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-475.0.0-linux-x86_64.tar.gz
+
+2           tar -xf google-cloud-cli-475.0.0-linux-x86_64.tar.gz
+
+3           ./google-cloud-sdk/install.sh
+            
+
+
+
+############### Open New Terminal ################
+
+1            gcloud init
+
+2            This will direct you to create account page so enter gmail and password and once done then again open terminal 
+
+3            gcloud init
+
+4            enter 1 (Re-initialize this confi..................)
+
+5            enter 1 (select your email )
+
+6            enter 3 (Enter a project id)
+
+
+ ##########################################################################################################################################
+
+
+
+Note Before Cloning=>
+1.Install Google App Engine
+
+2.Do configuration using gcloud init
+
+3.You should create project on google console and save project-id somewhere
+
+4.Then do cloning acoording to given following steps
+
+To clone,
+Run the commands on terminal :
+
+git clone https://github.com/abhishekmahajan3711/GoogleAppEngineV1.git
+
+---if git is not install then install it---
+
+cd GoogleAppEngineV1
+
+---go in files , go to GoogleAppEngineV1 folder, go to CodeFolder, open app.yaml file, in that file paste your project-id----
+
+python2 google_appengine/dev_appserver.py CodeFolder/app.yaml
+
+---if python2 not found then install it---
+
+---go to localhost:8080---
+
+
+
+
+
+
+
+
+

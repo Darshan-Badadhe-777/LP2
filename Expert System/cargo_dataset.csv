@@ -1,0 +1,12 @@
+cargo_id,source,destination,date,time,cargo_weight (kg),cargo_price (USD)
+CG12345,JFK (New York),LAX (Los Angeles),2024-03-20,10:00 AM,5000,2500
+CG12346,JFK (New York),LAX (Los Angeles),2024-04-20,10:00 AM,500,600
+CG56789,LHR (London),HKG (Hong Kong),2024-04-05,22:15 PM,8000,6000
+CG09876,DXB (Dubai),SIN (Singapore),2024-05-12,14:30 PM,4000,3000
+CG34567,SYD (Sydney),LAX (Los Angeles),2024-02-29,18:45 PM,10000,9000
+CG12312,YYZ (Toronto),LHR (London),2024-06-18,8:15 AM,6000,4500
+CG45645,FRA (Frankfurt),ORD (Chicago),2024-01-15,13:00 PM,7000,5000
+CG78901,KUL (Kuala Lumpur),CDG (Paris),2024-07-02,1:45 AM,9000,8000
+CG23456,NRT (Tokyo),JFK (New York),2024-08-09,17:30 PM,11000,10000
+CG90123,CAN (Guangzhou),LHR (London),2024-09-16,5:00 AM,7500,6500
+CG34512,CDG (Paris),SIN (Singapore),2024-10-23,20:00 PM,10500,9500
