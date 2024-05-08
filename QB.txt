@@ -1,0 +1,150 @@
+1.Differentiate between DFS and BFS Algorithms.
+2.Write down the Time and Space Complexity of DFS and BFS.
+3.Which data structure is used by DFS and BFS?
+4.Differentiate between Best first search and A star algorithm.
+5.Solve this problem using A star algorithm.
+6.What is the drawback to solve 8 Puzzle problem with a non-heuristic method?
+7.What is the time and space complexity of selection sort?
+8.If an array is [6, 1, 9, 10] , sort the list by selection sort, step wise.
+9.What is the maximum number of comparisons in one iteration for an array of size N?
+10.Draw Comparison chart with other sorting techniques with respect to time and space
+11.Complexity.
+12.What is a Stable Sort Algorithm? Whether selection sort is a stable algorithm?
+13.Which are the constraints required to solve the N Queen Problem?
+14.Compare Backtracking and branch and bound methods.
+15.What do you mean by Constraint satisfaction problem?
+16.What is the use of a chat bot?
+17.Explain dialog flow in detail.
+18.What are the requirements for developing a chatbot?
+19.How do you evaluate a chatbot performance?
+20.How do I improve my chatbot accuracy?
+
+DFS (Depth First Search) explores as far as possible along each branch before backtracking. BFS (Breadth First Search) explores all neighbor nodes at the present depth before moving to the next depth level.
+Time complexity: Both DFS and BFS have O(V + E), where V is the number of vertices and E is the number of edges. Space complexity: DFS has O(V) for the recursive stack, while BFS has O(V) for the queue.
+DFS uses a stack (can be implemented with recursion or an explicit stack), while BFS uses a queue.
+Best First Search selects the node to expand based on a heuristic function without considering the total cost, while A* algorithm considers both the cost to reach the node and the heuristic function.
+Sure, please provide the problem you'd like to solve using the A* algorithm.
+Non-heuristic methods for the 8 Puzzle problem might require exhaustive search through a large number of possible configurations, which can be inefficient.
+Time complexity of selection sort is O(n^2), and space complexity is O(1).
+Sure, let's sort the array [6, 1, 9, 10] using selection sort:
+Pass 1: [1, 6, 9, 10]
+Pass 2: [1, 6, 9, 10]
+Pass 3: [1, 6, 9, 10]
+The maximum number of comparisons in one iteration for an array of size N in selection sort is N-1.
+Here's a comparison chart of sorting techniques:
+Algorithm	Time Complexity	Space Complexity
+Selection Sort	O(n^2)	O(1)
+Bubble Sort	O(n^2)	O(1)
+Insertion Sort	O(n^2)	O(1)
+Merge Sort	O(n log n)	O(n)
+Quick Sort	O(n log n)	O(log n) (average)
+Heap Sort	O(n log n)	O(1)
+Radix Sort	O(nk)	O(n + k)
+Stable sort algorithms maintain the relative order of equal elements. Selection sort is not a stable algorithm because it may change the relative order of equal elements during the sorting process.
+The constraints for solving the N Queen Problem typically involve ensuring that no two queens share the same row, column, or diagonal on the chessboard.
+Backtracking explores all possible solutions and abandons a search branch if it's determined that the branch cannot lead to a valid solution. Branch and bound also explores all possible solutions but uses upper and lower bounds on the objective function to prune search branches.
+A constraint satisfaction problem involves finding values for variables subject to constraints. These problems often involve finding a feasible solution rather than an optimal one.
+Chatbots are used for various purposes such as customer service, information retrieval, entertainment, and task automation.
+Dialog flow refers to the flow of conversation between a user and a chatbot, including how the bot understands user inputs, generates responses, and maintains context throughout the conversation.
+The requirements for developing a chatbot include defining its purpose, determining its target audience, choosing the appropriate platform and technology stack, designing conversation flows, and integrating with relevant APIs or databases.
+Chatbot performance can be evaluated based on metrics such as user satisfaction, task completion rate, response accuracy, response time, and engagement level.
+To improve chatbot accuracy, you can refine its natural language understanding models, provide more training data, incorporate user feedback loops, and continuously monitor and update its performance based on real-world interactions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.What is Cloud Computing with example?
+2.Who is the father of cloud computing?
+3.List down the basic characteristics of cloud computing?
+4.What do you mean by Vertical and Horizontal scaling in Cloud Computing?
+5.What are the services provided by Cloud Computing?
+6.What are different model in Deployment in Cloud Computing?
+7.Mention the platform which are used for Large Scale Cloud Computing?
+8.Mention the name of some large cloud providers and databases?
+9.Explain the difference between cloud and traditional datacenters?
+10.What are the different components required in cloud computing?
+11.What are the different platforms of cloud architecture?
+12.What is a cloud service?
+13.List down the basic clouds in cloud computing?
+14.What are some issues with Cloud Computing?
+15.Mention the services that are provided by Window Azure Operating System?
+16.What is Cloud Computing Architecture?
+17.What are the Services provided by AWS?
+18.What are the Services provided by Microsoft?
+19.What is Virtualization?
+20.What is an EC2 instance?
+21.What is AMI in EC2?
+22.How to launch an on-demand EC2 instance in AWS?
+23.What is Google App Engine?
+24.What are advantages of Google App Engine?
+25.What are the steps to install and configure Google App Engine?
+26.What is Apex?
+27.What are the Features of Apex as language?
+28.What are the application of Apex?
+29.List some Apex Code Development Tools?
+30.What are the steps to create application using Apex Programming Language?
+31.What is Salesforce.com Inc.?
+32.What is Lightning Platform?
+33.How to create Custom Application using Salesforce Classic?
+34.What is the difference between custom application and console application in sales force?
+35.What are the steps to create custom application using salesforce?
+36.What is hypervisor in Cloud Computing?
+37.Explain Load Balancing in Cloud Computing.
+38.List the open-source cloud computing platform databases?
+39.What are recent trends of Cloud Computing?
+40.Applications of Cloud Computing.
+
+Cloud computing is the delivery of computing services over the internet, allowing users to access and use resources like servers, storage, databases, and software on-demand. Example: Google Drive for storing files and Dropbox for file sharing.
+The term "cloud computing" was popularized by Joseph Carl Robnett Licklider, though it doesn't have a single father. Modern cloud computing evolved from various contributions by researchers, engineers, and companies.
+Basic characteristics of cloud computing include on-demand self-service, broad network access, resource pooling, rapid elasticity, and measured service.
+Vertical scaling involves increasing the capacity of a single server, while horizontal scaling involves adding more servers to distribute the load.
+Cloud computing services include Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS).
+Different deployment models in cloud computing include public cloud, private cloud, hybrid cloud, and community cloud.
+Platforms used for large-scale cloud computing include Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), and IBM Cloud.
+Large cloud providers include AWS, Azure, Google Cloud Platform, IBM Cloud, and Oracle Cloud. Large databases include Amazon RDS, Google Cloud SQL, Azure SQL Database, and IBM Db2 on Cloud.
+Cloud datacenters offer scalability, flexibility, and cost-effectiveness compared to traditional datacenters, which require large upfront investments and ongoing maintenance.
+Components required in cloud computing include virtualization, networking, storage, security, management tools, and APIs.
+Different platforms of cloud architecture include Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS).
+A cloud service is any service delivered over the internet, typically on a subscription basis, providing access to computing resources and capabilities.
+Basic clouds in cloud computing include public cloud, private cloud, hybrid cloud, and community cloud.
+Issues with cloud computing include security concerns, data privacy, compliance challenges, downtime risks, and vendor lock-in.
+Services provided by Windows Azure Operating System include compute, storage, networking, databases, AI and machine learning, IoT, and developer tools.
+Cloud computing architecture defines the components and relationships between them to deliver cloud services. It typically includes front-end and back-end components connected via a network.
+AWS provides a wide range of services including computing, storage, databases, machine learning, analytics, security, IoT, and developer tools.
+Microsoft Azure offers services such as computing, storage, databases, AI and machine learning, analytics, IoT, developer tools, and security.
+Virtualization is the process of creating a virtual version of a computing resource, such as a server, storage device, or network, to optimize resource utilization and improve scalability.
+An EC2 instance is a virtual server in Amazon Elastic Compute Cloud (EC2) that provides computing capacity in the AWS cloud.
+An AMI (Amazon Machine Image) in EC2 is a template for the root volume of an EC2 instance, containing the operating system, application server, and applications.
+To launch an on-demand EC2 instance in AWS, you can use the AWS Management Console, AWS CLI, or AWS SDKs/APIs. You select the desired AMI, instance type, configure instance details, add storage, configure security groups, and launch the instance.
+Google App Engine is a platform-as-a-service (PaaS) cloud computing platform for developing and hosting web applications in Google-managed data centers.
+Advantages of Google App Engine include automatic scaling, built-in services like NoSQL database, data storage, and security, and support for multiple programming languages.
+Steps to install and configure Google App Engine involve signing up for Google Cloud Platform, installing the Cloud SDK, creating an App Engine project, configuring your development environment, and deploying your application.
+Apex is a proprietary programming language used to develop applications on the Salesforce Lightning Platform.
+Features of Apex include strongly-typed, object-oriented programming, database integration, transaction control, and support for web services.
+Apex is primarily used for developing custom business logic, integrations with external systems, and automation of Salesforce processes.
+Some Apex Code development tools include Salesforce Developer Console, Salesforce Extensions for Visual Studio Code, and Apex Data Loader.
+Steps to create an application using Apex Programming Language involve defining objects, creating custom fields, writing Apex classes and triggers, and deploying the application to Salesforce.
+Salesforce.com Inc. is a cloud-based software company known for its customer relationship management (CRM) platform.
+Lightning Platform is a platform-as-a-service (PaaS) offering from Salesforce that provides tools for building and deploying custom applications and integrations.
+In Salesforce Classic, you can create custom applications by defining custom objects, fields, and relationships, and designing custom layouts and workflows.
+Custom applications in Salesforce are tailored to specific business needs, while console applications are designed for agents to manage and track customer interactions.
+Steps to create a custom application using Salesforce involve defining objects and fields, creating page layouts, configuring security settings, and testing the application.
+A hypervisor in cloud computing is a software layer that enables multiple virtual machines (VMs) to run on a single physical server, allowing for efficient resource utilization and isolation.
+Load balancing in cloud computing involves distributing incoming network traffic across multiple servers or resources to optimize performance, reliability, and availability.
+Open-source cloud computing platform databases include Apache Cassandra, MySQL, PostgreSQL, MongoDB, and Redis.
+Recent trends in cloud computing include multi-cloud and hybrid cloud adoption, serverless computing, edge computing, and increased focus on security and compliance.
+Applications of cloud computing include data storage and backup, software development and testing, website hosting, big data analytics, IoT, and machine learning.
